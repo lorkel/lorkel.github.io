@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #f8f8f8;
+  color: #666;
+  padding-top: 30px;
+  background: lightblue url("../images/roses.png") repeat fixed center;
+  background-size: cover;
+  min-height: 1000px;
+}
+
+/* example comment syntax */
+
+/* reference links:
+Background images
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background-size
+
+Dropshadow generator:
+http://css3studio.com/page-css3/css-box-shadow.php
+
+ */
+
+div {
+  border: 1px solid #ccc;
+}
+
+.css-box-shadow {
+	background: #F8F8F8;
+	border: solid #BDBDBD 1px;
+	box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
+	-webkit-box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
+	-moz-box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
+}
+
+#navigation {
+  background-color: red;
+  color: white;
+}
+
+p { color: blue; }
+
+div.green-text p { color: green; }
