@@ -1,42 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-  font-family: 'Times New Roman', serif;
-  background-color: #f8f8f8;
-  color: #666;
-  padding-top: 30px;
-  background: lightblue url("../images/roses.png") repeat fixed center;
-  background-size: cover;
-  min-height: 1000px;
+  background-color: white;
+  background: #fff url("../images/products/roses.png") no-repeat;
+  /* background-size: cover; */
+  color: #363;
 }
 
-/* example comment syntax */
-
-/* reference links:
-Background images
-https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background-size
-
-Dropshadow generator:
-http://css3studio.com/page-css3/css-box-shadow.php
-
- */
-
-div {
-  border: 1px solid #ccc;
+h1, h3 {
+  font-family: 'Pacifico', cursive;
+  color: pink;
 }
 
-.css-box-shadow {
+p { color: black; }
+
+.sidebar {
+  color: yellow;
+  margin: 250px 100px;
+  /* margin-top: 250px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 90px; */
+}
+
+.css-box-shadow{
 	background: #F8F8F8;
 	border: solid #BDBDBD 1px;
-	box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
-	-webkit-box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
-	-moz-box-shadow: 0 38px 20px rgba(209, 27, 209, 0.5)  ;
+	box-shadow: 0 0 78px rgba(240, 0, 240, 0.5)  ;
+	-webkit-box-shadow: 0 0 78px rgba(240, 0, 240, 0.5)  ;
+	-moz-box-shadow: 0 0 78px rgba(240, 0, 240, 0.5)  ;
 }
-
-#navigation {
-  background-color: red;
-  color: white;
-}
-
-p { color: blue; }
-
-div.green-text p { color: green; }
